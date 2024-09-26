@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_move">Pindah Activity</string>
+    <string name="btn_move_with_data">Pindah Activity dengan Data</string>
+    <string name="btn_move_with_obj">Pindah Activity dengan Objek</string>
+    <string name="btn_dial_number">Dial a Number</string>
+    <string name="btn_move_with_result">Pindah Activity dengan Result</string>
+    <string name="btn_choose">Pilih</string>
+</resources>
