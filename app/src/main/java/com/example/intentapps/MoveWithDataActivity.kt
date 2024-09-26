@@ -1,0 +1,29 @@
+package com.example.intentapps
+
+import android.content.Intent
+import android.os.Bundle
+import android.widget.TextView
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+
+class MoveWithDataActivity : AppCompatActivity() {
+
+    companion object {
+        const val EXTRA_AGE = "extra_age"
+        const val EXTRA_NAME = "extra_name"
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_main_with_data)
+
+        val tvDataResult: TextView = findViewById(R.id.tv_data_result)
+
+        val name = intent.getStringExtra(EXTRA_NAME)
+        val age = intent.getIntExtra(EXTRA_AGE, 0)
+
+        val text = "Name: $name, Age: $age"
+        tvDataResult.text = text
+    }
+}
