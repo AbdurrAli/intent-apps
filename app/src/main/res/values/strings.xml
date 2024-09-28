@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">IntentApps</string>
     <string name="label_result">Hasil dari Activity</string>
-    <string name="option_1">50</string>
-    <string name="option_2">100</string>
-    <string name="option_3">150</string>
-    <string name="option_4">200</string>
+    <string name="choose_option">Pilih hewan peliharaan yang kamu suka</string>
+    <string name="option_1">Cat</string>
+    <string name="option_2">Puppy</string>
+    <string name="option_3">Hamster</string>
+    <string name="option_4">Racoon</string>
     <string name="result_objek">Objek Diterima</string>
     <string name="result_data">Data Diterima</string>
     <string name="result_move">ini MoveActivity</string>
+    <string name="result_text">Hasil : %1$s</string>
 </resources>
